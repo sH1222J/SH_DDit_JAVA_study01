@@ -1,0 +1,12 @@
+package kr.or.ddit.study02;
+
+public class VarExample02 {
+	public static void main(String[] args) {
+		// 변수 선언
+		// -> 타입 번수명;
+		int x;
+		int y;
+		int z;
+	}
+
+}
