@@ -1,0 +1,19 @@
+package kr.or.ddit.study03.sec03;
+
+import java.util.Scanner;
+
+public class CastExample01 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		CastExample01 obj = new CastExample01();
+		obj.process();
+
+	}
+
+	public void process() {
+		System.out.println("test");
+		
+	}
+
+}

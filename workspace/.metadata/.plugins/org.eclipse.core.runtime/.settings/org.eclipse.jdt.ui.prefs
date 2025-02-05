@@ -7,6 +7,7 @@ eclipse.preferences.version=1
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.internal.ui.navigator.librariesnode=true
 org.eclipse.jdt.ui.formatterprofiles.version=23
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java" deleted\="false" description\="" enabled\="true" name\="scanTemp">Scanner sc \= new Scanner(System.in);&\#13;\r\n\tpublic static void main(String[] args) {&\#13;\r\n\t\t${enclosing_type} obj \= new ${enclosing_type}();&\#13;\r\n\t\tobj.process();&\#13;\r\n\t\t&\#13;\r\n\t}&\#13;\r\n\t&\#13;\r\n\tpublic void process() {&\#13;\r\n\t\t${cursor}&\#13;\r\n\t}</template></templates>
 spelling_locale_initialized=true
 typefilter_migrated_2=true
 useAnnotationsPrefPage=true
