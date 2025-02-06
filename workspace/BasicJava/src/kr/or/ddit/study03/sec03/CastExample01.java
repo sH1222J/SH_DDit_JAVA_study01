@@ -14,11 +14,11 @@ public class CastExample01 {
 	public void process() {
 //		method1();
 //		method2();
-//		method3();
+		method3();
 //		method4();
 //		method5();
 //		method6();
-		method7();
+//		method7();
 
 	}
 

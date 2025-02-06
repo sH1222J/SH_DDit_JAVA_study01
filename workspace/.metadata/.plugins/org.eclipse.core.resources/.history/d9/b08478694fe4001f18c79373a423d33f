@@ -1,0 +1,32 @@
+package kr.or.ddit.study03.sec04;
+
+public class BineryOperator {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		BineryOperator obj = new BineryOperator();
+		obj.process();
+
+	}
+
+	public void process() {
+//		이항연산자 : 대부분의 연산자
+//		산술연산자, 관계연산자, 논리연산자, 비트 연산자, 대입연산자
+		method1();
+		
+	}
+
+	public void method1() {
+		// 이항연산자
+//		+ - / * %
+		
+		int a=5;
+		int b=3;
+		
+		System.out.println("덧셈 : "+(a+b));
+		
+	}
+	
+	
+	
+}
