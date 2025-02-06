@@ -7,11 +7,11 @@ public class HomeWork2 {
 
 	public static void main(String[] args) {
 		HomeWork2 obj = new HomeWork2();
-		obj.method1();
+//		obj.method1();
 //		obj.mehtod2();
 //		obj.mehtod3();
 //		obj.mehtod4();
-//		obj.mehtod5();
+		obj.mehtod5();
 	}
 
 	public void method1() {
@@ -26,7 +26,7 @@ public class HomeWork2 {
 		String str = sc.nextLine();
 
 		double num = Double.parseDouble(str);
-//		double num = Double.valueOf(str);
+		double num = Double.valueOf(str);
 
 		int num = (int) (num * 100);
 

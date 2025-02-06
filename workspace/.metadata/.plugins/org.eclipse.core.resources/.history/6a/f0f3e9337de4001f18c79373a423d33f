@@ -26,7 +26,7 @@ public class HomeWork2 {
 		String str = sc.nextLine();
 
 		double num = Double.parseDouble(str);
-//		double num = Double.valueOf(str);
+		double num = Double.valueOf(str);
 
 		int num = (int) (num * 100);
 

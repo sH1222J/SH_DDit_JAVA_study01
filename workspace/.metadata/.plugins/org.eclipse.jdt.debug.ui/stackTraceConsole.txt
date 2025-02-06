@@ -1,8 +1,2 @@
-Math.round(숫자)  -> 반올림
-
-
-Math.ceil(숫자)     -> 올림
-
- 
-
-Math.floor(숫자)    -> 내림
+		System.out.println("val : " + val);
+		System.out.println("res : " + res);
