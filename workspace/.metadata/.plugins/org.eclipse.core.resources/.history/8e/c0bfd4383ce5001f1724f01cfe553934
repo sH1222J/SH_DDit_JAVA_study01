@@ -45,7 +45,7 @@ public class ifExample02 {
 		}
 
 	}
-
+}
 //
 //	public void method2() {
 //		int a = sc.nextInt();

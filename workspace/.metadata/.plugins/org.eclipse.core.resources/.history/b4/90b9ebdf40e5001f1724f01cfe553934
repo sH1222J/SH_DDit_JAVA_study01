@@ -26,7 +26,6 @@ public class HomeWork4 {
 		int user = sc.nextInt();
 		int bot = (int) (Math.random() * 3);
 		
-//		플레이어 안내메시지
 		if(user==0) {
 			System.out.println("가위를 선택하셨군요.");
 		}
@@ -36,7 +35,6 @@ public class HomeWork4 {
 		else if(user==2) {
 			System.out.println("보를 선택하셨군요.");
 		}
-//		봇이 낸 가위바위보
 		if(bot==0) {
 			System.out.println("봇 : 가위");
 		}
@@ -46,7 +44,6 @@ public class HomeWork4 {
 		else if(bot==2) {
 			System.out.println("봇 : 보");
 		}
-//		결과로직
 		if(user>bot && !(user==2 && bot ==0)) {
 			System.out.println( "승리하셨습니다.");
 		}
