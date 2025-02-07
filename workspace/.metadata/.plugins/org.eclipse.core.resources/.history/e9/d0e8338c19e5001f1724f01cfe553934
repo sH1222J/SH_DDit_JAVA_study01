@@ -1,0 +1,54 @@
+package kr.or.ddit.study04.sec01;
+
+import java.util.Scanner;
+
+public class ifExample01 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		ifExample01 obj = new ifExample01();
+		obj.process();
+
+	}
+
+	public void process() {
+//		method1();
+		method2();
+//		method3();
+//		method4();
+//		method5();
+//		method6();
+
+	}
+
+	public void method2() {
+//		점수를 입력받고 합격일지 불합격인지 출력하시오.
+//		60점이상 합격.
+		System.out.println("점수 : ");
+		int score = sc.nextInt();
+
+		if (score >= 60) {
+			System.out.println("합격");
+
+		}
+//		if (score < 60) {
+		else {
+
+			System.out.println("불합격");
+		}
+
+	}
+
+	public void method1() {
+
+		System.out.println("실행문1");
+
+//		if (true) { 참  아래는 거짓
+		if (false) {
+			System.out.println("실행문2");
+
+		}
+		System.out.println("실행문3");
+
+	}
+}

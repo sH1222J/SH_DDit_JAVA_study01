@@ -1,0 +1,32 @@
+package kr.or.ddit.study04.sec01;
+
+import java.util.Scanner;
+
+public class ifExample01 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		ifExample01 obj = new ifExample01();
+		obj.process();
+
+	}
+
+	public void process() {
+		method1();
+//		method1();
+
+	}
+
+	public void method1() {
+
+		System.out.println("실행문1");
+
+//		if (true) { 참  아래는 거짓
+		if (false) {
+			System.out.println("실행문2");
+
+		}
+		System.out.println("실행문3");
+
+	}
+}

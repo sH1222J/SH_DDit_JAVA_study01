@@ -8,8 +8,8 @@ public class HomeWork3 {
 
 	public static void main(String[] args) {
 		HomeWork3 obj = new HomeWork3();
-//		obj.question1();
-		obj.question2();
+		obj.question1();
+//		obj.question2();
 	}
 
 	public void question1() { // 증감연산자 사용
@@ -21,7 +21,7 @@ public class HomeWork3 {
 		 * 1번 실행시 cnt 값이 1씩 증가 되어야됨
 		 * 
 		 */
-		//
+		// 40
 		int question = new Random().nextInt(50);
 		int cnt = 0;
 		while (true) {
@@ -48,29 +48,27 @@ public class HomeWork3 {
 		System.out.println(cnt + " 번 시행되었습니다.");
 	}
 
-	public void question2() {				//
-		/* 논리 연산자 : && , ||
-		   년도를 입력 받아 윤년과 평년을 판별.
-		  ? 안을 완성하여 작성.
-			
-		  4의 배수 윤년     : 1992 1996 2004
-		  100의 배수 평년 : 1700 1800 1900 
-		  -----------------------------------
-		  400의 배수 윤년 : 1600 2000    
-		*/
-		
+	public void question2() { //
+		/*
+		 * 논리 연산자 : && , || 년도를 입력 받아 윤년과 평년을 판별. ? 안을 완성하여 작성.
+		 * 
+		 * 4의 배수 윤년 : 1992 1996 2004 100의 배수 평년 : 1700 1800 1900
+		 * ----------------------------------- 400의 배수 윤년 : 1600 2000
+		 */
+
 		System.out.println("년도 입력 : ");
 		int year = sc.nextInt();
-		
-		boolean four = year % 4 ==0;
-		boolean four =
+
+		boolean four = year % 4 == 0; // boolean 1byte
+		boolean hour = year % 100 == 0;
+		boolean fourHund = year % 400 == 0;
+
 		/*
-		 *  sec04 - BineryOperator.java 참고
-		 *  && - 거짓 / || - 참 / ! 부정
+		 * sec04 - BineryOperator.java 참고 && - 거짓 / || - 참 / ! 부정
 		 */
-		if((four && year % 100 != 0) || year % 400 == 0) {
+		if ((fourHund || four && !hund)) {
 			System.out.println(year + " 년은 윤년입니다.");
-		}else {
+		} else {
 			System.out.println(year + " 년은 평년입니다.");
 		}
 	}

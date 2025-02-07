@@ -20,7 +20,6 @@ public class UnaryOperator {
 	}
 
 	public void method3() {
-	public void method3() {
 		int a = 10;
 		int b = 10;
 		System.out.println(a++ + 5);

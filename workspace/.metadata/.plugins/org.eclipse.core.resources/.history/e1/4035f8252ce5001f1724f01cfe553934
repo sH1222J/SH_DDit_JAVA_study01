@@ -1,0 +1,22 @@
+package kr.or.ddit.HomeWork04;
+
+public class HomeWork4 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		HomeWork4 obj = new HomeWork4();
+		obj.process();
+
+	}
+
+	public void process() {
+		
+		
+		
+		
+		
+		
+		
+
+	}
+}
