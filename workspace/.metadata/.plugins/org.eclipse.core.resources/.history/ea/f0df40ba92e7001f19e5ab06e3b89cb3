@@ -15,10 +15,10 @@ public class HomeWork05 {
 //		method1();
 //		method2();
 //		method3();
-//		method4();
+		method4();
 //		method5();
 //		method6();
-		method7();
+//		method7();
 	}
 
 	public void method0() {
@@ -107,8 +107,8 @@ public class HomeWork05 {
 //		 
 		System.out.print("피라미드 만들 별의 갯수 입력 : ");
 		int row = sc.nextInt();
-		for (int line = 0; line < row; line++) {
-			for (int star = 0; star < line; star++) {
+		for (int line = 0; line > row; line++) {
+			for (int space = 0; space < line; space++) {
 				System.out.print(" ");
 			}
 			for (int star = 0; star < row - line; star++) {
@@ -127,15 +127,7 @@ public class HomeWork05 {
 
 		System.out.print("피라미드 만들 별의 갯수 입력 : ");
 		int row = sc.nextInt();
-		for (int line = 0; line < row; line++) {
-			for (int space = 0; space < row - line; space++) {
-				System.out.print(" ");
-			}
-			for (int star = 0; star < 2 * line + 1; star++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
+
 	}
 
 	public void method6() {
@@ -147,15 +139,6 @@ public class HomeWork05 {
 
 		System.out.print("피라미드 만들 별의 갯수 입력 : ");
 		int row = sc.nextInt();
-		for (int line = 0; line < row; line++) {
-			for (int space = 0; space < line; space++) {
-				System.out.print(" ");
-			}
-			for (int star = 0; star < 2 * (row - line) - 1; star++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
 	}
 
 	public void method7() {
@@ -168,17 +151,6 @@ public class HomeWork05 {
 
 		System.out.print("피라미드 만들 별의 갯수 입력 : ");
 		int row = sc.nextInt();
-
-		for (int line = 1; line <= row; line++) {
-			for (int star = 1; star <= row; star++) {
-				// 첫 번째 줄, 마지막 줄, 첫 번째 열, 마지막 열에 별 출력
-				if (line == 1 || line == row || star == 1 || star == row) {
-					System.out.print("*");
-				} else {
-					System.out.print(" "); // 내부는 공백
-				}
-			}
-			System.out.println(); // 줄바꿈
-		}
 	}
+
 }

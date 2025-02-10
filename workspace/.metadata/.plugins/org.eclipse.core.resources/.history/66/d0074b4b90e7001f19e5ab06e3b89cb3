@@ -1,0 +1,138 @@
+package kr.or.ddit.HomeWork05;
+
+import java.util.Scanner;
+
+public class HomeWork05 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		HomeWork05 obj = new HomeWork05();
+		obj.process();
+	}
+
+	public void process() {
+//		method0();
+//		method1();
+		method2();
+//		method3();
+//		method4();
+//		method5();
+//		method6();
+//		method7();
+	}
+
+	public void method0() {
+		// 과제풀기전 예제
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 7; j++) {
+				System.out.print("*");
+			}
+			System.out.println("");
+
+		}
+
+	}
+
+	public void method1() {
+//		   row = 4 
+//		       *
+//		       **
+//		       ***
+//		       ****
+
+		for (int i = 0; i < 5; i++) {
+			for (int star = 0; star <= i; star++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+
+//		int row = sc.nextInt();
+//
+//		for (int line = 0; line < row; line++) {
+//			for (int star = 0; star < line; star++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//	}
+
+	public void method2() {
+//		   row = 4 
+//		 *         *
+//		 *        **
+//		 *       ***
+//		 *      ****
+//		 
+		System.out.print("입력:");
+		int row = sc.nextInt();
+		for (int i = 0; i < 5; i++) {
+			for (int star = 0; star < 4 - i; star++) {
+				System.out.print("");
+			}
+			for (int star = 0; star <= i; star++) {
+				System.out.printl("*");
+		}
+			System.out.println();
+	}
+
+	public void method3() {
+//		   row = 4 
+//		 *      ****
+//		 *       ***
+//		 *        **
+//		 *         *
+		System.out.print("입력:");
+		int row = sc.nextInt();
+
+	}
+
+	public void method4() {
+//		   row = 4 
+//		 *      ****
+//		 *      ***
+//		 *      **
+//		 *      *
+//		 
+		System.out.print("입력:");
+		int row = sc.nextInt();
+
+	}
+
+	public void method5() {
+//		   row = 4 
+//		 *      *
+//		 *     ***
+//		 *    *****
+//		 *   *******
+
+		System.out.print("입력:");
+		int row = sc.nextInt();
+
+	}
+
+	public void method6() {
+//		   row = 4 
+//		 *   *******
+//		 *    *****
+//		 *     ***
+//		 *      *
+
+		System.out.print("입력:");
+		int row = sc.nextInt();
+	}
+
+	public void method7() {
+
+//		 *    row = 4 
+//		 *    ****
+//		 *    *  *
+//		 *    *  *
+//		 *    ****
+
+		System.out.print("입력:");
+		int row = sc.nextInt();
+	}
+
+}
