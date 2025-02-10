@@ -82,7 +82,7 @@ public class HomeWork2 {
 		int s = Integer.parseInt(s);
 		
 		int i1=i/100;
-		i = i1*100
+		i = i1*100;
 		
 		int i1=i/10;
 		i = i*i2*10;

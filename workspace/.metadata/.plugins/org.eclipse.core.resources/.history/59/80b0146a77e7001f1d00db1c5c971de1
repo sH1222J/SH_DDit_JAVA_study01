@@ -1,0 +1,30 @@
+package kr.or.ddit.study04.sec02;
+
+import java.util.Scanner;
+
+public class ForExample01 {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		ForExample01 obj = new ForExample01();
+		obj.process();
+
+	}
+
+	public void process() {
+		method1();
+	}
+
+	public void method1() {
+//		1~5까지의 합.
+		int sum = 0;
+		sum += 1;
+		sum += 2;
+		sum += 3;
+		sum += 4;
+		sum += 5;
+		System.out.println("1~5까지의 합은 : "+sum);
+
+	}
+
+}

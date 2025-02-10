@@ -1,0 +1,40 @@
+package kr.or.ddit.study04.sec01;
+
+import java.util.Scanner;
+
+public class SwitchExample {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		SwitchExample obj = new SwitchExample();
+		obj.process();
+
+	}
+
+	public void process() {
+		method1();
+
+	}
+
+	public void method1() {
+		int num = 0;
+		switch (num) {
+		case 0:
+			System.out.println("0");
+			break;
+
+		case 1:
+			System.out.println("1");
+			break;
+
+		case 2:
+			System.out.println("2");
+			break;
+		default:
+			System.out.println("그 외 값.");
+			break;
+
+		}
+	}
+
+}
