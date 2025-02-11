@@ -33,8 +33,13 @@ public class ForExample01 {
 	public void method10() {
 //		 내가 입력한 문자 ~ z 까지 출력.
 		String str = sc.nextLine();
-		
-		for(char ch=str.)
+
+
+		for (char ch = st; ch <= 'z'; ch++) {
+			System.out.print(ch);
+		}
+
+	}
 
 	public void method9() {
 //		a~ 내가 입력한 문자까지 출력.
