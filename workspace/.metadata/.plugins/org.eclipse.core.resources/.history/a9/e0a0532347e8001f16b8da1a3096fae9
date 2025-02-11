@@ -1,0 +1,43 @@
+package kr.or.ddit.study04.sec02;
+
+import java.util.Scanner;
+
+public class WhileExample {
+	Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		WhileExample obj = new WhileExample();
+		obj.process();
+
+	}
+
+	public void process() {
+//		method1();
+		method2();
+//		method1();
+//		method1();
+//		method1();
+//		method1();
+	}
+
+	public void method2() {
+//		1~10까지의 합
+		 int sum=0;
+		int i=1;
+		while(i<=10) {
+			sum+=i;
+			i++;
+		}
+		System.out.println("1~10까지의 합:"+sum);
+	}
+
+	public void method1() {
+//		while(조건식)
+//		while (true) {
+//			System.out.println("동작중입니다.");
+//		}
+//	}
+
+		for(;true;) {
+			System.out.println("동작중입니다.");
+		}
