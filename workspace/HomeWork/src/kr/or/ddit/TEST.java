@@ -1,6 +1,6 @@
 package kr.or.ddit;
 
-public class TEST {
+public class TEST2 {
     Scanner sc = new Scanner(System.in);
     	public static void main(String[] args) {
     		${enclosing_type} obj = new ${enclosing_type}();

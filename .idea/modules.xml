@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/workspace/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" filepath="$PROJECT_DIR$/workspace/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/workspace/BasicJava/BasicJava.iml" filepath="$PROJECT_DIR$/workspace/BasicJava/BasicJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/workspace/HomeWork/HomeWork.iml" filepath="$PROJECT_DIR$/workspace/HomeWork/HomeWork.iml" />
+    </modules>
+  </component>
+</project>
