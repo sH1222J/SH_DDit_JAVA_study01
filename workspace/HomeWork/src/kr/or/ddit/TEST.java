@@ -1,14 +1,12 @@
-package kr.or.ddit;
+class Solution {
+	public int solution(int[] array, int height) {
+		int answer = 0;
 
-public class TEST2 {
-    Scanner sc = new Scanner(System.in);
-    	public static void main(String[] args) {
-    		${enclosing_type} obj = new ${enclosing_type}();
-    		obj.process();
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] > height)
+				answer++;
+		}
 
-    	}
-
-    	public void process() {
-    		${cursor}
-    	}
+		return answer;
+	}
 }
