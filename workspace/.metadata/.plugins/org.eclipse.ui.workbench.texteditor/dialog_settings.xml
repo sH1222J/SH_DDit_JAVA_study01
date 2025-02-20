@@ -1,25 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="ArrayExample02_TEST"/>
+		<item key="selection" value="money/5000;"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="ArrayExample02_TEST"/>
-			<item value="&amp;&amp;"/>
-			<item value="manetSecond"/>
+			<item value="money/5000;"/>
+			<item value="money / 5000;"/>
+			<item value="int papers = money / 5000;"/>
+			<item value="lottoBundle"/>
+			<item value="Arrays.sort"/>
+			<item value="Random"/>
+			<item value="winningLott"/>
+			<item value="winningLotto.length"/>
+			<item value="checkPrize"/>
+			<item value="money"/>
+			<item value=" while"/>
+			<item value=" while ("/>
+			<item value=" while (money &gt; 0"/>
+			<item value="int j"/>
+			<item value="for (int j = 0; j &lt; i; j++) {"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="807"/>
-		<item key="DIALOG_Y_ORIGIN" value="328"/>
+		<item key="DIALOG_X_ORIGIN" value="576"/>
+		<item key="DIALOG_Y_ORIGIN" value="547"/>
 		<item key="DIALOG_WIDTH" value="319"/>
 		<item key="DIALOG_HEIGHT" value="370"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.templates.TemplatePreferencePage$EditTemplateDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="37"/>
+		<item key="DIALOG_Y_ORIGIN" value="59"/>
+		<item key="DIALOG_WIDTH" value="606"/>
+		<item key="DIALOG_HEIGHT" value="574"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>
