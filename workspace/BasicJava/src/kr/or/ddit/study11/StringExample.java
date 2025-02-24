@@ -1,6 +1,5 @@
 package kr.or.ddit.study11;
 
-
 import java.util.Scanner;
 
 public class StringExample {

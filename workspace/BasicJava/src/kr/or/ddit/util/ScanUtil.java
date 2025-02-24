@@ -39,6 +39,13 @@ public class ScanUtil {
 		}
 		return num;
 	}
+
+	public static int select() {
+		
+		// TODO Auto-generated method stub
+		System.out.println("선택 : ");
+		
+	}
 	
 	
 	
